@@ -1,0 +1,58 @@
+name: Sync Reach Data
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/sync-reach-data.yml"
+  schedule:
+    - cron: "30 4 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-reach-data
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download compact Reach/Frequency data
+        run: |
+          mkdir -p data
+          curl --fail --location --retry 4 --retry-delay 3 \
+            "https://raw.githubusercontent.com/romankhasin/-level-group-dashboard/main/data/reach_frequency_july_2026.json" \
+            --output data/reach_frequency_july_2026.json
+
+      - name: Validate data
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('data/reach_frequency_july_2026.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          total = data.get('total') or {}
+          assert total.get('impressions') == 151412152, total
+          assert total.get('reach') == 63669972, total
+          assert data.get('byProject'), 'byProject is empty'
+          assert any(row.get('project') == 'Level Лесной' for row in data['byProject']), 'Level Лесной missing'
+          print('Validated:', total, 'projects:', len(data['byProject']))
+          PY
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/reach_frequency_july_2026.json
+          if git diff --cached --quiet; then
+            echo "Reach data is already up to date"
+          else
+            git commit -m "Sync July Reach Frequency data"
+            git push
+          fi
