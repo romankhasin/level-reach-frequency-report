@@ -28,7 +28,7 @@
     <div class="eyebrow">Target Ads · Reach / Frequency</div>
     <h1>Охваты и частота</h1>
     <p class="lead">Дедуплицированный охват Level Group по Device ID: общий Total за выбранный период и отдельные проекты. Для каждого проекта показаны собственные Reach, Frequency и показы.</p>
-    <div class="periods" role="group" aria-label="Период отчёта"><button class="period-button active" type="button" data-period="july">Июль 2026</button><button class="period-button" type="button" data-period="august">1–16 августа 2026</button></div>
+    <div class="periods" role="group" aria-label="Период отчёта"><button class="period-button" type="button" data-period="july">Июль 2026</button><button class="period-button active" type="button" data-period="august">Август 2026</button></div>
     <div class="period" id="period">Загрузка периода…</div>
 
     <section class="summary" aria-label="Итоги Level Group">
@@ -47,14 +47,14 @@
 <script>
   const PERIODS={
     july:{url:'./data/reach_frequency_july_2026.json',label:'Июль 2026'},
-    august:{url:'./data/reach_frequency_august_1_16_2026.json',label:'1–16 августа 2026'}
+    august:{url:'./data/reach_frequency_august_2026.json',label:'Август 2026'}
   };
   const fmt=new Intl.NumberFormat('ru-RU');
   const pct=v=>`${(v*100).toFixed(1).replace('.',',')}%`;
   const freq=v=>v==null?'—':Number(v).toFixed(2).replace('.',',');
   const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
   let objectRows=[];
-  let activePeriod='july';
+  let activePeriod='august';
   function objectCard(row){return `<div class="object" data-name="${esc(row.project).toLowerCase()}"><div class="object-name">${esc(row.project)}</div><div class="object-kpi"><span>Reach Total</span><strong>${fmt.format(row.reach||0)}</strong></div><div class="object-kpi frequency"><span>Frequency</span><strong>${freq(row.frequency)}</strong></div><div class="object-kpi impressions"><span>Показы</span><strong>${fmt.format(row.impressions||0)}</strong></div></div>`}
   function renderObjects(filter=''){const q=filter.trim().toLowerCase();const rows=objectRows.filter(r=>!q||String(r.project).toLowerCase().includes(q));document.getElementById('objects').innerHTML=rows.map(objectCard).join('')||'<div class="muted">Проекты не найдены</div>'}
   async function load(periodKey=activePeriod){

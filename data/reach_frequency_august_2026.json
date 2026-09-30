@@ -1,0 +1,390 @@
+{
+  "period": {
+    "from": "2026-08-01",
+    "to": "2026-08-31"
+  },
+  "projectId": 12787,
+  "method": "Target Ads Raw Data API v2; exact streaming Roaring Bitmap unions with bounded memory",
+  "important": "Reach is deduplicated independently for Total and each project. Do not sum project Reach rows.",
+  "channelClassificationVersion": "none-2026-08-19",
+  "projectClassificationVersion": "v2-2026-08-19",
+  "placementMetaCount": 906,
+  "total": {
+    "label": "Level Group",
+    "impressions": 151775897,
+    "impressionsWithDevice": 151775897,
+    "reach": 61067253,
+    "frequency": 2.4854,
+    "deviceIdCoverage": 1.0
+  },
+  "byChannel": [],
+  "byProject": [
+    {
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 15886834,
+      "impressionsWithDevice": 15886834,
+      "reach": 9093950,
+      "frequency": 1.747,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Южнопортовая",
+      "scope": "object",
+      "impressions": 12849573,
+      "impressionsWithDevice": 12849573,
+      "reach": 4605271,
+      "frequency": 2.7902,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Регионы",
+      "scope": "object",
+      "impressions": 11580350,
+      "impressionsWithDevice": 11580350,
+      "reach": 6397865,
+      "frequency": 1.81,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 11018547,
+      "impressionsWithDevice": 11018547,
+      "reach": 7352020,
+      "frequency": 1.4987,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Селигерская",
+      "scope": "object",
+      "impressions": 9686487,
+      "impressionsWithDevice": 9686487,
+      "reach": 4668097,
+      "frequency": 2.075,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Свободы",
+      "scope": "object",
+      "impressions": 8965428,
+      "impressionsWithDevice": 8965428,
+      "reach": 5304018,
+      "frequency": 1.6903,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 8861832,
+      "impressionsWithDevice": 8861832,
+      "reach": 3030847,
+      "frequency": 2.9239,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Звенигородская",
+      "scope": "object",
+      "impressions": 8508481,
+      "impressionsWithDevice": 8508481,
+      "reach": 3845773,
+      "frequency": 2.2124,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Лесной",
+      "scope": "object",
+      "impressions": 8275479,
+      "impressionsWithDevice": 8275479,
+      "reach": 3547377,
+      "frequency": 2.3328,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Воронцовская",
+      "scope": "object",
+      "impressions": 7155520,
+      "impressionsWithDevice": 7155520,
+      "reach": 3118405,
+      "frequency": 2.2946,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Войковская",
+      "scope": "object",
+      "impressions": 6398161,
+      "impressionsWithDevice": 6398161,
+      "reach": 3617388,
+      "frequency": 1.7687,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Work Нижегородская",
+      "scope": "object",
+      "impressions": 5980594,
+      "impressionsWithDevice": 5980594,
+      "reach": 2960901,
+      "frequency": 2.0199,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Нижегородская",
+      "scope": "object",
+      "impressions": 3306054,
+      "impressionsWithDevice": 3306054,
+      "reach": 1323771,
+      "frequency": 2.4975,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Саввинская",
+      "scope": "object",
+      "impressions": 2322469,
+      "impressionsWithDevice": 2322469,
+      "reach": 1679812,
+      "frequency": 1.3826,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Левел Групп",
+      "scope": "brand",
+      "impressions": 12639727,
+      "impressionsWithDevice": 12639727,
+      "reach": 5972718,
+      "frequency": 2.1162,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Остатки",
+      "scope": "brand",
+      "impressions": 9605129,
+      "impressionsWithDevice": 9605129,
+      "reach": 5849013,
+      "frequency": 1.6422,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Премиальные коллекции",
+      "scope": "brand",
+      "impressions": 5266846,
+      "impressionsWithDevice": 5266846,
+      "reach": 3866653,
+      "frequency": 1.3621,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · Волга",
+      "scope": "unassigned",
+      "impressions": 2058431,
+      "impressionsWithDevice": 2058431,
+      "reach": 1008817,
+      "frequency": 2.0404,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · Академическая",
+      "scope": "unassigned",
+      "impressions": 1288613,
+      "impressionsWithDevice": 1288613,
+      "reach": 625057,
+      "frequency": 2.0616,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · promopages",
+      "scope": "unassigned",
+      "impressions": 117105,
+      "impressionsWithDevice": 117105,
+      "reach": 96063,
+      "frequency": 1.219,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · Дзен",
+      "scope": "unassigned",
+      "impressions": 3232,
+      "impressionsWithDevice": 3232,
+      "reach": 3199,
+      "frequency": 1.0103,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · yandex Go",
+      "scope": "unassigned",
+      "impressions": 326,
+      "impressionsWithDevice": 326,
+      "reach": 231,
+      "frequency": 1.4113,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · ПромоСтраницы",
+      "scope": "unassigned",
+      "impressions": 325,
+      "impressionsWithDevice": 325,
+      "reach": 276,
+      "frequency": 1.1775,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Без объекта",
+      "scope": "unassigned",
+      "impressions": 313,
+      "impressionsWithDevice": 313,
+      "reach": 308,
+      "frequency": 1.0162,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · lg_promopages_msk_article_none_none_ostatki_none_cont",
+      "scope": "unassigned",
+      "impressions": 17,
+      "impressionsWithDevice": 17,
+      "reach": 14,
+      "frequency": 1.2143,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · UrbanAds (Yandex Go)",
+      "scope": "unassigned",
+      "impressions": 11,
+      "impressionsWithDevice": 11,
+      "reach": 10,
+      "frequency": 1.1,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · Level Академическая",
+      "scope": "unassigned",
+      "impressions": 7,
+      "impressionsWithDevice": 7,
+      "reach": 7,
+      "frequency": 1.0,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · video yandex",
+      "scope": "unassigned",
+      "impressions": 3,
+      "impressionsWithDevice": 3,
+      "reach": 3,
+      "frequency": 1.0,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · ozon",
+      "scope": "unassigned",
+      "impressions": 2,
+      "impressionsWithDevice": 2,
+      "reach": 2,
+      "frequency": 1.0,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · yandex",
+      "scope": "unassigned",
+      "impressions": 1,
+      "impressionsWithDevice": 1,
+      "reach": 1,
+      "frequency": 1.0,
+      "byChannel": [],
+      "unclassified": null
+    }
+  ],
+  "unclassified": null,
+  "unknownPlacementImpressions": 313,
+  "jobs": [
+    {
+      "from": "2026-08-01",
+      "to": "2026-08-04",
+      "jobId": "d60d32f1-4e1f-411b-bfd2-a0b6f3712506",
+      "rows": 15966995,
+      "rowsWithDevice": 15966995
+    },
+    {
+      "from": "2026-08-05",
+      "to": "2026-08-08",
+      "jobId": "1ba0df1c-c88e-45b5-b8a7-366d3008b65b",
+      "rows": 17614290,
+      "rowsWithDevice": 17614290
+    },
+    {
+      "from": "2026-08-09",
+      "to": "2026-08-12",
+      "jobId": "6b7bb22a-07be-4548-979e-0294e543fcd3",
+      "rows": 17248421,
+      "rowsWithDevice": 17248421
+    },
+    {
+      "from": "2026-08-13",
+      "to": "2026-08-14",
+      "jobId": "48a93c52-42e2-4efd-9c82-8790359886b9",
+      "rows": 9171048,
+      "rowsWithDevice": 9171048
+    },
+    {
+      "from": "2026-08-15",
+      "to": "2026-08-16",
+      "jobId": "696cd2cc-db53-4d88-a563-7167137b2977",
+      "rows": 8768523,
+      "rowsWithDevice": 8768523
+    },
+    {
+      "from": "2026-08-17",
+      "to": "2026-08-20",
+      "jobId": "457da768-1bdc-43f5-9fc9-1d3f5fb8af9e",
+      "rows": 19845800,
+      "rowsWithDevice": 19845800
+    },
+    {
+      "from": "2026-08-21",
+      "to": "2026-08-24",
+      "jobId": "732ca1be-1b55-486e-822d-f9fb263f0f18",
+      "rows": 19715208,
+      "rowsWithDevice": 19715208
+    },
+    {
+      "from": "2026-08-25",
+      "to": "2026-08-28",
+      "jobId": "f6b8df5e-388d-4856-a188-b1f478f1a9dd",
+      "rows": 25485311,
+      "rowsWithDevice": 25485311
+    },
+    {
+      "from": "2026-08-29",
+      "to": "2026-08-31",
+      "jobId": "402857e6-dc5a-470e-95a2-1d0039308c5c",
+      "rows": 17960301,
+      "rowsWithDevice": 17960301
+    }
+  ]
+}
