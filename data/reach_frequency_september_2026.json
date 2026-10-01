@@ -1,0 +1,1965 @@
+{
+  "period": {
+    "from": "2026-09-01",
+    "to": "2026-09-30"
+  },
+  "projectId": 12787,
+  "method": "Target Ads Raw Data API v2; exact streaming Roaring Bitmap unions with bounded memory",
+  "important": "Reach is deduplicated independently for Total and each project. Do not sum project Reach rows. Every active placement is listed in byPlacement and reconciles to a project group and the Total.",
+  "channelClassificationVersion": "none-2026-08-19",
+  "projectClassificationVersion": "v2-2026-08-19",
+  "placementMetaCount": 954,
+  "total": {
+    "label": "Level Group",
+    "impressions": 79735152,
+    "impressionsWithDevice": 79735152,
+    "reach": 29828865,
+    "frequency": 2.6731,
+    "deviceIdCoverage": 1.0
+  },
+  "byChannel": [],
+  "byProject": [
+    {
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 15620803,
+      "impressionsWithDevice": 15620803,
+      "reach": 8416902,
+      "frequency": 1.8559,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 11370986,
+      "impressionsWithDevice": 11370986,
+      "reach": 5168078,
+      "frequency": 2.2002,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 7520215,
+      "impressionsWithDevice": 7520215,
+      "reach": 2903280,
+      "frequency": 2.5902,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Селигерская",
+      "scope": "object",
+      "impressions": 5661894,
+      "impressionsWithDevice": 5661894,
+      "reach": 2572216,
+      "frequency": 2.2012,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Звенигородская",
+      "scope": "object",
+      "impressions": 5536605,
+      "impressionsWithDevice": 5536605,
+      "reach": 3138633,
+      "frequency": 1.764,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Академическая",
+      "scope": "object",
+      "impressions": 3463281,
+      "impressionsWithDevice": 3463281,
+      "reach": 1392883,
+      "frequency": 2.4864,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Воронцовская",
+      "scope": "object",
+      "impressions": 3440631,
+      "impressionsWithDevice": 3440631,
+      "reach": 1128785,
+      "frequency": 3.0481,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Волга",
+      "scope": "object",
+      "impressions": 2564021,
+      "impressionsWithDevice": 2564021,
+      "reach": 1117055,
+      "frequency": 2.2953,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Work Нижегородская",
+      "scope": "object",
+      "impressions": 2243883,
+      "impressionsWithDevice": 2243883,
+      "reach": 1166215,
+      "frequency": 1.9241,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Южнопортовая",
+      "scope": "object",
+      "impressions": 1783440,
+      "impressionsWithDevice": 1783440,
+      "reach": 1009884,
+      "frequency": 1.766,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Саввинская",
+      "scope": "object",
+      "impressions": 1479398,
+      "impressionsWithDevice": 1479398,
+      "reach": 940043,
+      "frequency": 1.5738,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Войковская",
+      "scope": "object",
+      "impressions": 553183,
+      "impressionsWithDevice": 553183,
+      "reach": 352788,
+      "frequency": 1.568,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Лесной",
+      "scope": "object",
+      "impressions": 156589,
+      "impressionsWithDevice": 156589,
+      "reach": 55956,
+      "frequency": 2.7984,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Свободы",
+      "scope": "object",
+      "impressions": 87056,
+      "impressionsWithDevice": 87056,
+      "reach": 34702,
+      "frequency": 2.5087,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Регионы",
+      "scope": "object",
+      "impressions": 59602,
+      "impressionsWithDevice": 59602,
+      "reach": 36437,
+      "frequency": 1.6358,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Level Нижегородская",
+      "scope": "object",
+      "impressions": 252,
+      "impressionsWithDevice": 252,
+      "reach": 232,
+      "frequency": 1.0862,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Остатки",
+      "scope": "brand",
+      "impressions": 10075564,
+      "impressionsWithDevice": 10075564,
+      "reach": 4496305,
+      "frequency": 2.2409,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Левел Групп",
+      "scope": "brand",
+      "impressions": 5191158,
+      "impressionsWithDevice": 5191158,
+      "reach": 2250243,
+      "frequency": 2.3069,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Премиальные коллекции",
+      "scope": "brand",
+      "impressions": 2832521,
+      "impressionsWithDevice": 2832521,
+      "reach": 1917585,
+      "frequency": 1.4771,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · promopages",
+      "scope": "unassigned",
+      "impressions": 92208,
+      "impressionsWithDevice": 92208,
+      "reach": 75674,
+      "frequency": 1.2185,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · Дзен",
+      "scope": "unassigned",
+      "impressions": 1143,
+      "impressionsWithDevice": 1143,
+      "reach": 1115,
+      "frequency": 1.0251,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Без объекта",
+      "scope": "unassigned",
+      "impressions": 395,
+      "impressionsWithDevice": 395,
+      "reach": 395,
+      "frequency": 1.0,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · yandex Go",
+      "scope": "unassigned",
+      "impressions": 175,
+      "impressionsWithDevice": 175,
+      "reach": 114,
+      "frequency": 1.5351,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · ПромоСтраницы",
+      "scope": "unassigned",
+      "impressions": 128,
+      "impressionsWithDevice": 128,
+      "reach": 108,
+      "frequency": 1.1852,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · UrbanAds (Yandex Go)",
+      "scope": "unassigned",
+      "impressions": 10,
+      "impressionsWithDevice": 10,
+      "reach": 4,
+      "frequency": 2.5,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · lg_promopages_msk_article_none_none_ostatki_none_cont",
+      "scope": "unassigned",
+      "impressions": 5,
+      "impressionsWithDevice": 5,
+      "reach": 3,
+      "frequency": 1.6667,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · solta",
+      "scope": "unassigned",
+      "impressions": 4,
+      "impressionsWithDevice": 4,
+      "reach": 1,
+      "frequency": 4.0,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · Segmento",
+      "scope": "unassigned",
+      "impressions": 1,
+      "impressionsWithDevice": 1,
+      "reach": 1,
+      "frequency": 1.0,
+      "byChannel": [],
+      "unclassified": null
+    },
+    {
+      "project": "Прочее · video yandex",
+      "scope": "unassigned",
+      "impressions": 1,
+      "impressionsWithDevice": 1,
+      "reach": 1,
+      "frequency": 1.0,
+      "byChannel": [],
+      "unclassified": null
+    }
+  ],
+  "unclassified": null,
+  "unknownPlacementImpressions": 395,
+  "jobs": [
+    {
+      "from": "2026-09-01",
+      "to": "2026-09-04",
+      "jobId": "5d766d23-6d4b-4a4c-9acb-dbca44748205",
+      "rows": 11440334,
+      "rowsWithDevice": 11440334
+    },
+    {
+      "from": "2026-09-05",
+      "to": "2026-09-08",
+      "jobId": "fd57d3c4-ddb8-4976-a535-52b143b71a6f",
+      "rows": 13873820,
+      "rowsWithDevice": 13873820
+    },
+    {
+      "from": "2026-09-09",
+      "to": "2026-09-12",
+      "jobId": "f1edff71-6eb8-4ff2-9d14-a385e746b4a8",
+      "rows": 11182054,
+      "rowsWithDevice": 11182054
+    },
+    {
+      "from": "2026-09-13",
+      "to": "2026-09-16",
+      "jobId": "586f52b3-62e1-49af-b9cc-aab151b798fb",
+      "rows": 10723609,
+      "rowsWithDevice": 10723609
+    },
+    {
+      "from": "2026-09-17",
+      "to": "2026-09-20",
+      "jobId": "7081f2f5-0c8e-4b02-9589-0eada9c1574c",
+      "rows": 9863237,
+      "rowsWithDevice": 9863237
+    },
+    {
+      "from": "2026-09-21",
+      "to": "2026-09-24",
+      "jobId": "e61e930c-002d-49a6-a3b4-ab4aa5a916a9",
+      "rows": 10009215,
+      "rowsWithDevice": 10009215
+    },
+    {
+      "from": "2026-09-25",
+      "to": "2026-09-28",
+      "jobId": "4d6a1de9-e278-48be-8a2a-5927027db320",
+      "rows": 7347539,
+      "rowsWithDevice": 7347539
+    },
+    {
+      "from": "2026-09-29",
+      "to": "2026-09-30",
+      "jobId": "9d127e15-986f-4a53-b9da-19923c6020d7",
+      "rows": 5295344,
+      "rowsWithDevice": 5295344
+    }
+  ],
+  "byPlacement": [
+    {
+      "placementId": "39851",
+      "placementName": "Павелецкая сити // MTS // сентябрь 2026",
+      "source": "МТС",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 4713275
+    },
+    {
+      "placementId": "39849",
+      "placementName": "Мичуринский // MTS // сентябрь 2026",
+      "source": "МТС",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 4232013
+    },
+    {
+      "placementId": "40113",
+      "placementName": "Остатки // Media yandex // сентябрь 2026",
+      "source": "YandexMI",
+      "project": "Остатки",
+      "scope": "brand",
+      "impressions": 3972411
+    },
+    {
+      "placementId": "40105",
+      "placementName": "Мичуринский // Media yandex // сентябрь 2026",
+      "source": "YandexMI",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 3807579
+    },
+    {
+      "placementId": "40114",
+      "placementName": "Остатки // Video yandex // сентябрь 2026",
+      "source": "YandexMI",
+      "project": "Остатки",
+      "scope": "brand",
+      "impressions": 3806801
+    },
+    {
+      "placementId": "39850",
+      "placementName": "Звенигородская // MTS // сентябрь 2026",
+      "source": "МТС",
+      "project": "Level Звенигородская",
+      "scope": "object",
+      "impressions": 3478405
+    },
+    {
+      "placementId": "39854",
+      "placementName": "Академическая // MTS // сентябрь 2026",
+      "source": "МТС",
+      "project": "Level Академическая",
+      "scope": "object",
+      "impressions": 3463280
+    },
+    {
+      "placementId": "39855",
+      "placementName": "Воронцовская // MTS // сентябрь 2026",
+      "source": "МТС",
+      "project": "Level Воронцовская",
+      "scope": "object",
+      "impressions": 3440341
+    },
+    {
+      "placementId": "40118",
+      "placementName": "Премиум // Astralab // сентябрь 2026",
+      "source": "Astralab",
+      "project": "Премиальные коллекции",
+      "scope": "brand",
+      "impressions": 2832399
+    },
+    {
+      "placementId": "40104",
+      "placementName": "Мичуринский // Adspector // сентябрь 2026",
+      "source": "Adspector",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 2486036
+    },
+    {
+      "placementId": "39853",
+      "placementName": "Мечникова // MTS // сентябрь 2026",
+      "source": "МТС",
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 2280865
+    },
+    {
+      "placementId": "40117",
+      "placementName": "Павелецкая сити // Media yandex // сентябрь 2026",
+      "source": "YandexMI",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 2229405
+    },
+    {
+      "placementId": "40106",
+      "placementName": "Мичуринский // Video yandex // сентябрь 2026",
+      "source": "YandexMI",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 2215880
+    },
+    {
+      "placementId": "40095",
+      "placementName": "Зонтик // Media yandex // сентябрь 2026",
+      "source": "YandexMI",
+      "project": "Левел Групп",
+      "scope": "brand",
+      "impressions": 2097556
+    },
+    {
+      "placementId": "40093",
+      "placementName": "Зонтик // Video yandex // сентябрь 2026",
+      "source": "YandexMI",
+      "project": "Левел Групп",
+      "scope": "brand",
+      "impressions": 1994570
+    },
+    {
+      "placementId": "40124",
+      "placementName": "Селигерская // Media yandex // сентябрь 2026",
+      "source": "YandexMI",
+      "project": "Level Селигерская",
+      "scope": "object",
+      "impressions": 1804510
+    },
+    {
+      "placementId": "40125",
+      "placementName": "Южнопортовая // Ozon // сентябрь 2026",
+      "source": "Ozon",
+      "project": "Level Южнопортовая",
+      "scope": "object",
+      "impressions": 1755036
+    },
+    {
+      "placementId": "40103",
+      "placementName": "Мичуринский // Ozon // сентябрь 2026",
+      "source": "Ozon",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 1719030
+    },
+    {
+      "placementId": "40115",
+      "placementName": "Павелецкая сити // Yandex_Go // сентябрь 2026",
+      "source": "UrbanAds",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 1684715
+    },
+    {
+      "placementId": "40097",
+      "placementName": "Мечникова // Media yandex // сентябрь 2026",
+      "source": "YandexMI",
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 1610177
+    },
+    {
+      "placementId": "40116",
+      "placementName": "Павелецкая сити // Astralab // сентябрь 2026",
+      "source": "Astralab",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 1568207
+    },
+    {
+      "placementId": "40119",
+      "placementName": "Саввинская 17 // Astralab // сентябрь 2026",
+      "source": "Astralab",
+      "project": "Level Саввинская",
+      "scope": "object",
+      "impressions": 1435364
+    },
+    {
+      "placementId": "40111",
+      "placementName": "Остатки // Ozon // сентябрь 2026",
+      "source": "Ozon",
+      "project": "Остатки",
+      "scope": "brand",
+      "impressions": 1425062
+    },
+    {
+      "placementId": "40122",
+      "placementName": "Селигерская // Ozon // сентябрь 2026",
+      "source": "Ozon",
+      "project": "Level Селигерская",
+      "scope": "object",
+      "impressions": 1402098
+    },
+    {
+      "placementId": "39848",
+      "placementName": "Селигерская // MTS // сентябрь 2026",
+      "source": "МТС",
+      "project": "Level Селигерская",
+      "scope": "object",
+      "impressions": 1324559
+    },
+    {
+      "placementId": "39847",
+      "placementName": "Волга // MTS // сентябрь 2026",
+      "source": "МТС",
+      "project": "Level Волга",
+      "scope": "object",
+      "impressions": 1287700
+    },
+    {
+      "placementId": "40101",
+      "placementName": "Мечникова // Video yandex // сентябрь 2026",
+      "source": "YandexMI",
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 1220236
+    },
+    {
+      "placementId": "40099",
+      "placementName": "Мечникова // Yandex_Go // сентябрь 2026",
+      "source": "UrbanAds",
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 1183332
+    },
+    {
+      "placementId": "40109",
+      "placementName": "Нижегородская w // voxexchange // сентябрь 2026",
+      "source": "VOX",
+      "project": "Work Нижегородская",
+      "scope": "object",
+      "impressions": 1157678
+    },
+    {
+      "placementId": "40656",
+      "placementName": "Павелецкая сити // ГПМ // сентябрь 2026",
+      "source": "streamingads",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 1132115
+    },
+    {
+      "placementId": "40123",
+      "placementName": "Селигерская // market yandex // сентябрь 2026",
+      "source": "UrbanAds",
+      "project": "Level Селигерская",
+      "scope": "object",
+      "impressions": 1129813
+    },
+    {
+      "placementId": "40092",
+      "placementName": "Звенигородская // Ozon // сентябрь 2026",
+      "source": "Ozon",
+      "project": "Level Звенигородская",
+      "scope": "object",
+      "impressions": 1107165
+    },
+    {
+      "placementId": "39813",
+      "placementName": "Звенигородская // Перекресток // сентябрь 2026",
+      "source": "Перекресток",
+      "project": "Level Звенигородская",
+      "scope": "object",
+      "impressions": 949533
+    },
+    {
+      "placementId": "40112",
+      "placementName": "Остатки // Astralab // сентябрь 2026",
+      "source": "Astralab",
+      "project": "Остатки",
+      "scope": "brand",
+      "impressions": 869974
+    },
+    {
+      "placementId": "40108",
+      "placementName": "Нижегородская w // Media yandex // сентябрь 2026",
+      "source": "YandexMI",
+      "project": "Work Нижегородская",
+      "scope": "object",
+      "impressions": 856189
+    },
+    {
+      "placementId": "40094",
+      "placementName": "Зонтик // Rutube // сентябрь 2026",
+      "source": "Rutube",
+      "project": "Левел Групп",
+      "scope": "brand",
+      "impressions": 853923
+    },
+    {
+      "placementId": "40102",
+      "placementName": "Мичуринский // market yandex // сентябрь 2026",
+      "source": "UrbanAds",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 852712
+    },
+    {
+      "placementId": "40090",
+      "placementName": "Волга // Ozon // сентябрь 2026",
+      "source": "Ozon",
+      "project": "Level Волга",
+      "scope": "object",
+      "impressions": 838481
+    },
+    {
+      "placementId": "40098",
+      "placementName": "Мечникова // Ozon // сентябрь 2026",
+      "source": "Ozon",
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 490282
+    },
+    {
+      "placementId": "40091",
+      "placementName": "Волга // market yandex // сентябрь 2026",
+      "source": "UrbanAds",
+      "project": "Level Волга",
+      "scope": "object",
+      "impressions": 437465
+    },
+    {
+      "placementId": "41199",
+      "placementName": "Мечникова // Buzzoola // сентябрь 2026",
+      "source": "buzzoola",
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 397884
+    },
+    {
+      "placementId": "40100",
+      "placementName": "Мечникова // Avito Медийка // сентябрь 2026",
+      "source": "Avito",
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 317993
+    },
+    {
+      "placementId": "40107",
+      "placementName": "Мичуринский // Avito Медийка // сентябрь 2026",
+      "source": "Avito",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 307138
+    },
+    {
+      "placementId": "40088",
+      "placementName": "Войковская // Yandex_Go // сентябрь 2026",
+      "source": "UrbanAds",
+      "project": "Level Войковская",
+      "scope": "object",
+      "impressions": 300545
+    },
+    {
+      "placementId": "34026",
+      "placementName": "Зонтик // Netmonet // июнь 2026",
+      "source": "Netmonet.co",
+      "project": "Левел Групп",
+      "scope": "brand",
+      "impressions": 244532
+    },
+    {
+      "placementId": "40132",
+      "placementName": "Нижегородская w // yabbi // сентябрь 2026",
+      "source": "yabbi",
+      "project": "Work Нижегородская",
+      "scope": "object",
+      "impressions": 229928
+    },
+    {
+      "placementId": "39846",
+      "placementName": "Лесной // MTS // сентябрь 2026",
+      "source": "МТС",
+      "project": "Level Лесной",
+      "scope": "object",
+      "impressions": 156088
+    },
+    {
+      "placementId": "40089",
+      "placementName": "Войковская // Ozon // сентябрь 2026",
+      "source": "Ozon",
+      "project": "Level Войковская",
+      "scope": "object",
+      "impressions": 128381
+    },
+    {
+      "placementId": "37429",
+      "placementName": "Войковская // Yandex_Go // август 2026",
+      "source": "UrbanAds",
+      "project": "Level Войковская",
+      "scope": "object",
+      "impressions": 117308
+    },
+    {
+      "placementId": "30276",
+      "placementName": "promopages // Май 2026_",
+      "source": "YandexMI",
+      "project": "Прочее · promopages",
+      "scope": "unassigned",
+      "impressions": 92208
+    },
+    {
+      "placementId": "39857",
+      "placementName": "Свободы // MTS // сентябрь 2026",
+      "source": "МТС",
+      "project": "Level Свободы",
+      "scope": "object",
+      "impressions": 76322
+    },
+    {
+      "placementId": "37467",
+      "placementName": "Зонтик регионы // Yandex_Go // август 2026",
+      "source": "UrbanAds",
+      "project": "Регионы",
+      "scope": "object",
+      "impressions": 55171
+    },
+    {
+      "placementId": "37439",
+      "placementName": "Саввинская 17 // Yandex_Go // август 2026",
+      "source": "UrbanAds",
+      "project": "Level Саввинская",
+      "scope": "object",
+      "impressions": 42271
+    },
+    {
+      "placementId": "37433",
+      "placementName": "Павелецкая сити // Yandex_Go // август 2026",
+      "source": "UrbanAds",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 41011
+    },
+    {
+      "placementId": "37402",
+      "placementName": "Южнопортовая // Yandex_Go // август 2026",
+      "source": "UrbanAds",
+      "project": "Level Южнопортовая",
+      "scope": "object",
+      "impressions": 26010
+    },
+    {
+      "placementId": "37443",
+      "placementName": "Мечникова // Yandex_Go // август 2026",
+      "source": "UrbanAds",
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 17232
+    },
+    {
+      "placementId": "40121",
+      "placementName": "Свободы // Adspector // сентябрь 2026",
+      "source": "Adspector",
+      "project": "Level Свободы",
+      "scope": "object",
+      "impressions": 10658
+    },
+    {
+      "placementId": "35809",
+      "placementName": "Войковская // Yandex_Go // июль 2026",
+      "source": "UrbanAds",
+      "project": "Level Войковская",
+      "scope": "object",
+      "impressions": 6253
+    },
+    {
+      "placementId": "35828",
+      "placementName": "Зонтик регионы // Yandex_Go // июль 2026",
+      "source": "UrbanAds",
+      "project": "Регионы",
+      "scope": "object",
+      "impressions": 4220
+    },
+    {
+      "placementId": "35772",
+      "placementName": "Южнопортовая // Yandex_Go // июль 2026",
+      "source": "UrbanAds",
+      "project": "Level Южнопортовая",
+      "scope": "object",
+      "impressions": 2029
+    },
+    {
+      "placementId": "35782",
+      "placementName": "Мечникова // Yandex_Go // июль 2026",
+      "source": "UrbanAds",
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 1971
+    },
+    {
+      "placementId": "35813",
+      "placementName": "Павелецкая сити // Yandex_Go // июль 2026",
+      "source": "UrbanAds",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 1857
+    },
+    {
+      "placementId": "36685",
+      "placementName": "Саввинская 27 // Yandex_Go // июль 2026",
+      "source": "UrbanAds",
+      "project": "Level Саввинская",
+      "scope": "object",
+      "impressions": 1705
+    },
+    {
+      "placementId": "17504",
+      "placementName": "Дзен // ЛГ // Декабрь 2025",
+      "source": "Dzen",
+      "project": "Прочее · Дзен",
+      "scope": "unassigned",
+      "impressions": 1143
+    },
+    {
+      "placementId": "35803",
+      "placementName": "Звенигородская // market yandex // июль 2026",
+      "source": "UrbanAds",
+      "project": "Level Звенигородская",
+      "scope": "object",
+      "impressions": 1125
+    },
+    {
+      "placementId": "37474",
+      "placementName": "Остатки // Media yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Остатки",
+      "scope": "brand",
+      "impressions": 783
+    },
+    {
+      "placementId": "37415",
+      "placementName": "Селигерская // Ozon // август 2026",
+      "source": "Ozon",
+      "project": "Level Селигерская",
+      "scope": "object",
+      "impressions": 719
+    },
+    {
+      "placementId": "37430",
+      "placementName": "Войковская // Ozon // август 2026",
+      "source": "Ozon",
+      "project": "Level Войковская",
+      "scope": "object",
+      "impressions": 681
+    },
+    {
+      "placementId": "0",
+      "placementName": "Placement 0",
+      "source": "",
+      "project": "Без объекта",
+      "scope": "unassigned",
+      "impressions": 395
+    },
+    {
+      "placementId": "37475",
+      "placementName": "Остатки // Video yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Остатки",
+      "scope": "brand",
+      "impressions": 345
+    },
+    {
+      "placementId": "37488",
+      "placementName": "Лесной // Пятерочка // август 2026",
+      "source": "Пятерочка",
+      "project": "Level Лесной",
+      "scope": "object",
+      "impressions": 334
+    },
+    {
+      "placementId": "37412",
+      "placementName": "Волга // Ozon // август 2026",
+      "source": "Ozon",
+      "project": "Level Волга",
+      "scope": "object",
+      "impressions": 317
+    },
+    {
+      "placementId": "37408",
+      "placementName": "Нижегородская // Media yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Level Нижегородская",
+      "scope": "object",
+      "impressions": 252
+    },
+    {
+      "placementId": "37447",
+      "placementName": "Воронцовская // Media yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Level Воронцовская",
+      "scope": "object",
+      "impressions": 236
+    },
+    {
+      "placementId": "37458",
+      "placementName": "Зонтик // Media yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Левел Групп",
+      "scope": "brand",
+      "impressions": 191
+    },
+    {
+      "placementId": "37406",
+      "placementName": "Южнопортовая // Media yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Level Южнопортовая",
+      "scope": "object",
+      "impressions": 190
+    },
+    {
+      "placementId": "30281",
+      "placementName": "yandex Go // Май 2026_",
+      "source": "UrbanAds",
+      "project": "Прочее · yandex Go",
+      "scope": "unassigned",
+      "impressions": 175
+    },
+    {
+      "placementId": "37133",
+      "placementName": "Зонтик // rpl-matchtv // Август 2026",
+      "source": "matchtv",
+      "project": "Левел Групп",
+      "scope": "brand",
+      "impressions": 165
+    },
+    {
+      "placementId": "33534",
+      "placementName": "Мичуринский // Yandex_Go // июнь 2026",
+      "source": "UrbanAds",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 161
+    },
+    {
+      "placementId": "37471",
+      "placementName": "Остатки // Ozon // август 2026",
+      "source": "Ozon",
+      "project": "Остатки",
+      "scope": "brand",
+      "impressions": 158
+    },
+    {
+      "placementId": "37427",
+      "placementName": "Звенигородская // Ozon // август 2026",
+      "source": "Ozon",
+      "project": "Level Звенигородская",
+      "scope": "object",
+      "impressions": 155
+    },
+    {
+      "placementId": "37441",
+      "placementName": "Мечникова // Media yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 151
+    },
+    {
+      "placementId": "17503",
+      "placementName": "ПромоСтраницы // ЛГ",
+      "source": "ПромоСтраницы",
+      "project": "Прочее · ПромоСтраницы",
+      "scope": "unassigned",
+      "impressions": 128
+    },
+    {
+      "placementId": "37428",
+      "placementName": "Звенигородская // Media yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Level Звенигородская",
+      "scope": "object",
+      "impressions": 120
+    },
+    {
+      "placementId": "37401",
+      "placementName": "Южнопортовая // Ozon // август 2026",
+      "source": "Ozon",
+      "project": "Level Южнопортовая",
+      "scope": "object",
+      "impressions": 111
+    },
+    {
+      "placementId": "37470",
+      "placementName": "Южнопортовая регионы // Media yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Регионы",
+      "scope": "object",
+      "impressions": 110
+    },
+    {
+      "placementId": "37905",
+      "placementName": "Павелецкая сити // rpl-matchtv // Август 2026",
+      "source": "matchtv",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 109
+    },
+    {
+      "placementId": "37424",
+      "placementName": "Мичуринский // Media yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 102
+    },
+    {
+      "placementId": "37418",
+      "placementName": "Селигерская // Media yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Level Селигерская",
+      "scope": "object",
+      "impressions": 95
+    },
+    {
+      "placementId": "37411",
+      "placementName": "Лесной // Media yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Level Лесной",
+      "scope": "object",
+      "impressions": 92
+    },
+    {
+      "placementId": "37416",
+      "placementName": "Селигерская // market yandex // август 2026",
+      "source": "UrbanAds",
+      "project": "Level Селигерская",
+      "scope": "object",
+      "impressions": 89
+    },
+    {
+      "placementId": "37425",
+      "placementName": "Звенигородская // market yandex // август 2026",
+      "source": "UrbanAds",
+      "project": "Level Звенигородская",
+      "scope": "object",
+      "impressions": 84
+    },
+    {
+      "placementId": "37134",
+      "placementName": "Зонтик // rpl-sportbox // Август 2026",
+      "source": "sportbox",
+      "project": "Левел Групп",
+      "scope": "brand",
+      "impressions": 73
+    },
+    {
+      "placementId": "37409",
+      "placementName": "Лесной // Ozon // август 2026",
+      "source": "Ozon",
+      "project": "Level Лесной",
+      "scope": "object",
+      "impressions": 72
+    },
+    {
+      "placementId": "37906",
+      "placementName": "Павелецкая сити // rpl-sportbox // Август 2026",
+      "source": "sportbox",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 72
+    },
+    {
+      "placementId": "37455",
+      "placementName": "Зонтик // Video yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Левел Групп",
+      "scope": "brand",
+      "impressions": 69
+    },
+    {
+      "placementId": "37468",
+      "placementName": "Зонтик регионы // Video yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Регионы",
+      "scope": "object",
+      "impressions": 67
+    },
+    {
+      "placementId": "37432",
+      "placementName": "Павелецкая сити // Avito Медийка // август 2026",
+      "source": "Avito",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 65
+    },
+    {
+      "placementId": "37434",
+      "placementName": "Павелецкая сити // Astralab // август 2026",
+      "source": "Astralab",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 64
+    },
+    {
+      "placementId": "37462",
+      "placementName": "Премиум // Astralab // август 2026",
+      "source": "Astralab",
+      "project": "Премиальные коллекции",
+      "scope": "brand",
+      "impressions": 60
+    },
+    {
+      "placementId": "37438",
+      "placementName": "Саввинская 17 // Astralab // август 2026",
+      "source": "Astralab",
+      "project": "Level Саввинская",
+      "scope": "object",
+      "impressions": 58
+    },
+    {
+      "placementId": "37450",
+      "placementName": "Нижегородская w // Media yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Work Нижегородская",
+      "scope": "object",
+      "impressions": 57
+    },
+    {
+      "placementId": "34489",
+      "placementName": "Мечникова // Yandex_Go // июнь 2026",
+      "source": "UrbanAds",
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 52
+    },
+    {
+      "placementId": "21275",
+      "placementName": "Мичуринский / ПромоСтраницы",
+      "source": "ПромоСтраницы",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 51
+    },
+    {
+      "placementId": "37413",
+      "placementName": "Волга // market yandex // август 2026",
+      "source": "UrbanAds",
+      "project": "Level Волга",
+      "scope": "object",
+      "impressions": 49
+    },
+    {
+      "placementId": "33165",
+      "placementName": "Зонтик // Yandex_Go // июнь 2026",
+      "source": "UrbanAds",
+      "project": "Левел Групп",
+      "scope": "brand",
+      "impressions": 43
+    },
+    {
+      "placementId": "37448",
+      "placementName": "Воронцовская // Astralab // август 2026",
+      "source": "Astralab",
+      "project": "Level Воронцовская",
+      "scope": "object",
+      "impressions": 37
+    },
+    {
+      "placementId": "33173",
+      "placementName": "Премиум // Yandex_Go // июнь 2026",
+      "source": "UrbanAds",
+      "project": "Премиальные коллекции",
+      "scope": "brand",
+      "impressions": 37
+    },
+    {
+      "placementId": "33155",
+      "placementName": "Павелецкая Сити // Yandex_Go // июнь 2026",
+      "source": "UrbanAds",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 35
+    },
+    {
+      "placementId": "37453",
+      "placementName": "Свободы // Astralab // август 2026",
+      "source": "Astralab",
+      "project": "Level Свободы",
+      "scope": "object",
+      "impressions": 32
+    },
+    {
+      "placementId": "37419",
+      "placementName": "Мичуринский // market yandex // август 2026",
+      "source": "UrbanAds",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 29
+    },
+    {
+      "placementId": "37420",
+      "placementName": "Мичуринский // Ozon // август 2026",
+      "source": "Ozon",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 29
+    },
+    {
+      "placementId": "37436",
+      "placementName": "Павелецкая сити // Pogoda yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 26
+    },
+    {
+      "placementId": "37495",
+      "placementName": "Свободы // СМИ2 // август 2026",
+      "source": "СМИ2",
+      "project": "Level Свободы",
+      "scope": "object",
+      "impressions": 24
+    },
+    {
+      "placementId": "37451",
+      "placementName": "Нижегородская w // voxexchange // август 2026",
+      "source": "VOX",
+      "project": "Work Нижегородская",
+      "scope": "object",
+      "impressions": 18
+    },
+    {
+      "placementId": "37442",
+      "placementName": "Мечникова // Ozon // август 2026",
+      "source": "Ozon",
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 17
+    },
+    {
+      "placementId": "34595",
+      "placementName": "Южнопортовая // Yandex_Go // июнь 2026",
+      "source": "UrbanAds",
+      "project": "Level Южнопортовая",
+      "scope": "object",
+      "impressions": 17
+    },
+    {
+      "placementId": "37405",
+      "placementName": "Южнопортовая // MTS // август 2026",
+      "source": "МТС",
+      "project": "Level Южнопортовая",
+      "scope": "object",
+      "impressions": 17
+    },
+    {
+      "placementId": "37440",
+      "placementName": "Мечникова // Avito Медийка // август 2026",
+      "source": "Avito",
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 16
+    },
+    {
+      "placementId": "33160",
+      "placementName": "Воронцовская // Solta // июнь 2026",
+      "source": "SOLTA",
+      "project": "Level Воронцовская",
+      "scope": "object",
+      "impressions": 15
+    },
+    {
+      "placementId": "19488",
+      "placementName": "Мичуринский / Видео / Яндекс / Январь 2026",
+      "source": "Yandex",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 15
+    },
+    {
+      "placementId": "27257",
+      "placementName": "Level Павелецкая Сити / Баннер / UrbanAds / Апрель 2026",
+      "source": "UrbanAds",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 15
+    },
+    {
+      "placementId": "37497",
+      "placementName": "Свободы // Soloway // август 2026",
+      "source": "Soloway",
+      "project": "Level Свободы",
+      "scope": "object",
+      "impressions": 14
+    },
+    {
+      "placementId": "21276",
+      "placementName": "Южнопортовая / ПромоСтраницы",
+      "source": "ПромоСтраницы",
+      "project": "Level Южнопортовая",
+      "scope": "object",
+      "impressions": 14
+    },
+    {
+      "placementId": "37460",
+      "placementName": "Зонтик // vkAds // август 2026",
+      "source": "ВКР",
+      "project": "Левел Групп",
+      "scope": "brand",
+      "impressions": 14
+    },
+    {
+      "placementId": "19487",
+      "placementName": "Level Group / Видео Остатки / Яндекс / Январь 2026",
+      "source": "Yandex",
+      "project": "Остатки",
+      "scope": "brand",
+      "impressions": 14
+    },
+    {
+      "placementId": "37421",
+      "placementName": "Мичуринский // MTS // август 2026",
+      "source": "МТС",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 12
+    },
+    {
+      "placementId": "37464",
+      "placementName": "Премиум // Digital Alliance // август 2026",
+      "source": "Digital Alliance",
+      "project": "Премиальные коллекции",
+      "scope": "brand",
+      "impressions": 12
+    },
+    {
+      "placementId": "37469",
+      "placementName": "Мичуринский регионы // Media yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Регионы",
+      "scope": "object",
+      "impressions": 12
+    },
+    {
+      "placementId": "37431",
+      "placementName": "Войковская // Avito Медийка // август 2026",
+      "source": "Avito",
+      "project": "Level Войковская",
+      "scope": "object",
+      "impressions": 11
+    },
+    {
+      "placementId": "28565",
+      "placementName": "UrbanAds (Yandex Go)",
+      "source": "UrbanAds",
+      "project": "Прочее · UrbanAds (Yandex Go)",
+      "scope": "unassigned",
+      "impressions": 10
+    },
+    {
+      "placementId": "35834",
+      "placementName": "Остатки // Ozon // июль 2026",
+      "source": "Ozon",
+      "project": "Остатки",
+      "scope": "brand",
+      "impressions": 9
+    },
+    {
+      "placementId": "37465",
+      "placementName": "Южнопортовая регионы // Avito Медийка // август 2026",
+      "source": "Avito",
+      "project": "Регионы",
+      "scope": "object",
+      "impressions": 9
+    },
+    {
+      "placementId": "37461",
+      "placementName": "Премиум // Video yandex // август 2026",
+      "source": "YandexMI",
+      "project": "Премиальные коллекции",
+      "scope": "brand",
+      "impressions": 8
+    },
+    {
+      "placementId": "37466",
+      "placementName": "Мичуринский регионы // Avito Медийка // август 2026",
+      "source": "Avito",
+      "project": "Регионы",
+      "scope": "object",
+      "impressions": 8
+    },
+    {
+      "placementId": "37459",
+      "placementName": "Зонтик // Digital Alliance // август 2026",
+      "source": "Digital Alliance",
+      "project": "Левел Групп",
+      "scope": "brand",
+      "impressions": 7
+    },
+    {
+      "placementId": "37444",
+      "placementName": "Мечникова // MTS // август 2026",
+      "source": "МТС",
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 6
+    },
+    {
+      "placementId": "27031",
+      "placementName": "Level Южнопортовая / Баннер / Ozon / Апрель 2026",
+      "source": "Ozon",
+      "project": "Level Южнопортовая",
+      "scope": "object",
+      "impressions": 6
+    },
+    {
+      "placementId": "37456",
+      "placementName": "Зонтик // Rutube // август 2026",
+      "source": "Rutube",
+      "project": "Левел Групп",
+      "scope": "brand",
+      "impressions": 6
+    },
+    {
+      "placementId": "37472",
+      "placementName": "Остатки // Astralab // август 2026",
+      "source": "Astralab",
+      "project": "Остатки",
+      "scope": "brand",
+      "impressions": 6
+    },
+    {
+      "placementId": "19490",
+      "placementName": "Звенигородская / Видео / Яндекс / Январь 2026",
+      "source": "Yandex",
+      "project": "Level Звенигородская",
+      "scope": "object",
+      "impressions": 5
+    },
+    {
+      "placementId": "37426",
+      "placementName": "Звенигородская // MTS // август 2026",
+      "source": "МТС",
+      "project": "Level Звенигородская",
+      "scope": "object",
+      "impressions": 5
+    },
+    {
+      "placementId": "35795",
+      "placementName": "Мичуринский // Ozon // июль 2026",
+      "source": "Ozon",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 5
+    },
+    {
+      "placementId": "37452",
+      "placementName": "Нижегородская w // MTS // август 2026",
+      "source": "МТС",
+      "project": "Work Нижегородская",
+      "scope": "object",
+      "impressions": 5
+    },
+    {
+      "placementId": "38421",
+      "placementName": "Нижегородская w // First Data // август 2026",
+      "source": "First Data",
+      "project": "Work Нижегородская",
+      "scope": "object",
+      "impressions": 5
+    },
+    {
+      "placementId": "27652",
+      "placementName": "Level Group / Баннер / UrbanAds / Апрель 2026",
+      "source": "UrbanAds",
+      "project": "Левел Групп",
+      "scope": "brand",
+      "impressions": 5
+    },
+    {
+      "placementId": "25489",
+      "placementName": "lg_promopages_msk_article_none_none_ostatki_none_cont",
+      "source": "ПромоСтраницы",
+      "project": "Прочее · lg_promopages_msk_article_none_none_ostatki_none_cont",
+      "scope": "unassigned",
+      "impressions": 5
+    },
+    {
+      "placementId": "37414",
+      "placementName": "Волга // MTS // август 2026",
+      "source": "МТС",
+      "project": "Level Волга",
+      "scope": "object",
+      "impressions": 4
+    },
+    {
+      "placementId": "27571",
+      "placementName": "Level Мичуринский / Баннер / UrbanAds / Апрель 2026",
+      "source": "UrbanAds",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 4
+    },
+    {
+      "placementId": "35801",
+      "placementName": "Селигерская // market yandex // июль 2026",
+      "source": "UrbanAds",
+      "project": "Level Селигерская",
+      "scope": "object",
+      "impressions": 4
+    },
+    {
+      "placementId": "21212",
+      "placementName": "Level Южнопортовая / Баннер / Ozon / Февраль 2026",
+      "source": "Ozon",
+      "project": "Level Южнопортовая",
+      "scope": "object",
+      "impressions": 4
+    },
+    {
+      "placementId": "27663",
+      "placementName": "Level Group / Баннер / Ozon / Апрель 2026",
+      "source": "Ozon",
+      "project": "Левел Групп",
+      "scope": "brand",
+      "impressions": 4
+    },
+    {
+      "placementId": "37435",
+      "placementName": "Павелецкая сити // MTS // август 2026",
+      "source": "МТС",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 4
+    },
+    {
+      "placementId": "30285",
+      "placementName": "solta // Май 2026_",
+      "source": "SOLTA",
+      "project": "Прочее · solta",
+      "scope": "unassigned",
+      "impressions": 4
+    },
+    {
+      "placementId": "27029",
+      "placementName": "Level Войковская / Баннер / UrbanAds / Апрель 2026",
+      "source": "UrbanAds",
+      "project": "Level Войковская",
+      "scope": "object",
+      "impressions": 3
+    },
+    {
+      "placementId": "35787",
+      "placementName": "Волга // market yandex // июль 2026",
+      "source": "UrbanAds",
+      "project": "Level Волга",
+      "scope": "object",
+      "impressions": 3
+    },
+    {
+      "placementId": "21209",
+      "placementName": "Level Звенигородская / Баннер / Ozon / Февраль 2026",
+      "source": "Ozon",
+      "project": "Level Звенигородская",
+      "scope": "object",
+      "impressions": 3
+    },
+    {
+      "placementId": "35808",
+      "placementName": "Звенигородская // Rutube // июль 2026",
+      "source": "Rutube",
+      "project": "Level Звенигородская",
+      "scope": "object",
+      "impressions": 3
+    },
+    {
+      "placementId": "21208",
+      "placementName": "Level Мичуринский  / Баннер / Ozon / Февраль 2026",
+      "source": "Ozon",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 3
+    },
+    {
+      "placementId": "37454",
+      "placementName": "Свободы // MTS // август 2026",
+      "source": "МТС",
+      "project": "Level Свободы",
+      "scope": "object",
+      "impressions": 3
+    },
+    {
+      "placementId": "27027",
+      "placementName": "Level Южнопортовая / Баннер / UrbanAds / Апрель 2026",
+      "source": "UrbanAds",
+      "project": "Level Южнопортовая",
+      "scope": "object",
+      "impressions": 3
+    },
+    {
+      "placementId": "35815",
+      "placementName": "Павелецкая сити // Astralab // июль 2026",
+      "source": "Astralab",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 3
+    },
+    {
+      "placementId": "37515",
+      "placementName": "Павелецкая сити // ГПМ // август 2026",
+      "source": "streamingads",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 3
+    },
+    {
+      "placementId": "20942",
+      "placementName": "Sberseller / Level Group Премиум / Февраль 2026",
+      "source": "Sberseller",
+      "project": "Премиальные коллекции",
+      "scope": "brand",
+      "impressions": 3
+    },
+    {
+      "placementId": "35786",
+      "placementName": "Волга // Ozon // июль 2026",
+      "source": "Ozon",
+      "project": "Level Волга",
+      "scope": "object",
+      "impressions": 2
+    },
+    {
+      "placementId": "35792",
+      "placementName": "Лесной // Ozon // июль 2026",
+      "source": "Ozon",
+      "project": "Level Лесной",
+      "scope": "object",
+      "impressions": 2
+    },
+    {
+      "placementId": "35799",
+      "placementName": "Мичуринский // Media yandex // июль 2026",
+      "source": "YandexMI",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 2
+    },
+    {
+      "placementId": "37501",
+      "placementName": "Свободы // Adspector // август 2026",
+      "source": "Adspector",
+      "project": "Level Свободы",
+      "scope": "object",
+      "impressions": 2
+    },
+    {
+      "placementId": "20032",
+      "placementName": "Ozon / Level Селигерская / Январь 2026",
+      "source": "Ozon",
+      "project": "Level Селигерская",
+      "scope": "object",
+      "impressions": 2
+    },
+    {
+      "placementId": "27577",
+      "placementName": "Level Селигерская / Баннер / Ozon / Апрель 2026",
+      "source": "Ozon",
+      "project": "Level Селигерская",
+      "scope": "object",
+      "impressions": 2
+    },
+    {
+      "placementId": "37417",
+      "placementName": "Селигерская // MTS // август 2026",
+      "source": "МТС",
+      "project": "Level Селигерская",
+      "scope": "object",
+      "impressions": 2
+    },
+    {
+      "placementId": "42076",
+      "placementName": "Южнопортовая // Yandex_Go // октябрь 2026",
+      "source": "UrbanAds",
+      "project": "Level Южнопортовая",
+      "scope": "object",
+      "impressions": 2
+    },
+    {
+      "placementId": "36714",
+      "placementName": "Нижегородская w // voxexchange // июль 2026",
+      "source": "VOX",
+      "project": "Work Нижегородская",
+      "scope": "object",
+      "impressions": 2
+    },
+    {
+      "placementId": "35816",
+      "placementName": "Павелецкая сити // MTS // июль 2026",
+      "source": "МТС",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 2
+    },
+    {
+      "placementId": "23510",
+      "placementName": "lg_mar26 // premium // video",
+      "source": "onetarget",
+      "project": "Премиальные коллекции",
+      "scope": "brand",
+      "impressions": 2
+    },
+    {
+      "placementId": "35830",
+      "placementName": "Мичуринский регионы // Media yandex // июль 2026",
+      "source": "YandexMI",
+      "project": "Регионы",
+      "scope": "object",
+      "impressions": 2
+    },
+    {
+      "placementId": "37518",
+      "placementName": "Зонтик регионы // ГПМ // август 2026",
+      "source": "streamingads",
+      "project": "Регионы",
+      "scope": "object",
+      "impressions": 2
+    },
+    {
+      "placementId": "27180",
+      "placementName": "Level Академическая  / Баннер / Ozon / Апрель 2026",
+      "source": "Ozon",
+      "project": "Level Академическая",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "33150",
+      "placementName": "Войковская // Video yandex // июнь 2026",
+      "source": "YandexMI",
+      "project": "Level Войковская",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "35820",
+      "placementName": "Воронцовская // Media yandex // июль 2026",
+      "source": "YandexMI",
+      "project": "Level Воронцовская",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "37449",
+      "placementName": "Воронцовская // MTS // август 2026",
+      "source": "МТС",
+      "project": "Level Воронцовская",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "33146",
+      "placementName": "Звенигородская // market yandex // июнь 2026",
+      "source": "UrbanAds",
+      "project": "Level Звенигородская",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "34678",
+      "placementName": "Звенигородская // Video yandex // июнь 2026",
+      "source": "YandexMI",
+      "project": "Level Звенигородская",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "21210",
+      "placementName": "Level Лесной / Баннер / Ozon / Февраль 2026",
+      "source": "Ozon",
+      "project": "Level Лесной",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "35781",
+      "placementName": "Мечникова // Ozon // июль 2026",
+      "source": "Ozon",
+      "project": "Level Мечникова",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "35794",
+      "placementName": "Мичуринский // market yandex // июль 2026",
+      "source": "UrbanAds",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "37422",
+      "placementName": "Мичуринский // Avito Медийка // август 2026",
+      "source": "Avito",
+      "project": "Level Мичуринский",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "34416",
+      "placementName": "Свободы // Media yandex // июнь 2026",
+      "source": "YandexMI",
+      "project": "Level Свободы",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "21211",
+      "placementName": "Level Селигерская / Баннер / Ozon / Февраль 2026",
+      "source": "Ozon",
+      "project": "Level Селигерская",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "23502",
+      "placementName": "Level Южнопортовая / Баннер / Ozon / Март 2026",
+      "source": "Ozon",
+      "project": "Level Южнопортовая",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "36525",
+      "placementName": "Нижегородская w // Media yandex // июль 2026",
+      "source": "YandexMI",
+      "project": "Work Нижегородская",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "35836",
+      "placementName": "Остатки // Roxot // июль 2026",
+      "source": "Roxot",
+      "project": "Остатки",
+      "scope": "brand",
+      "impressions": 1
+    },
+    {
+      "placementId": "35812",
+      "placementName": "Павелецкая сити // Avito Медийка // июль 2026",
+      "source": "Avito",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "37437",
+      "placementName": "Павелецкая сити // Adspector // август 2026",
+      "source": "Adspector",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "42102",
+      "placementName": "Павелецкая сити // Yandex_Go // октябрь 2026",
+      "source": "UrbanAds",
+      "project": "Павелецкая Сити",
+      "scope": "object",
+      "impressions": 1
+    },
+    {
+      "placementId": "29856",
+      "placementName": "Segmento // Май 2026",
+      "source": "Segmento",
+      "project": "Прочее · Segmento",
+      "scope": "unassigned",
+      "impressions": 1
+    },
+    {
+      "placementId": "30274",
+      "placementName": "video yandex // Май 2026_",
+      "source": "YandexMI",
+      "project": "Прочее · video yandex",
+      "scope": "unassigned",
+      "impressions": 1
+    },
+    {
+      "placementId": "35831",
+      "placementName": "Южнопортовая регионы // Media yandex // июль 2026",
+      "source": "YandexMI",
+      "project": "Регионы",
+      "scope": "object",
+      "impressions": 1
+    }
+  ],
+  "placementAudit": {
+    "activePlacementCount": 198,
+    "auditedImpressions": 79735152,
+    "unmatchedPlacementImpressions": 395,
+    "allImpressionsAssignedToAGroup": true
+  }
+}
