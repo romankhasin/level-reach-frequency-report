@@ -1,0 +1,59 @@
+/* Тема «Power BI» для страницы охватов. Подключается после встроенных стилей. */
+:root{--ink:#252423;--muted:#605e5c;--soft:#f3f2f1;--line:#e1dfdd;--gold:#f2c811;--bronze:#605e5c;--green:#107c10;--red:#c50f1f;--shadow:none;--strong:#8a8886;--blue:#0f6cbd}
+html body,html body *{font-family:"Segoe UI","Segoe UI Web (West European)",-apple-system,BlinkMacSystemFont,"Roboto","Helvetica Neue",Arial,sans-serif !important;letter-spacing:0 !important}
+html body{background:#f3f2f1;color:var(--ink);font-size:14px}
+html body *{backdrop-filter:none !important}
+
+/* верхняя панель */
+.topbar{position:sticky;background:#252423;border-bottom:0}
+.topbar-inner{width:100%;min-height:48px;padding:0 16px}
+.brand{color:#fff;font-size:14px;font-weight:600;gap:10px}
+.mark{width:28px;height:28px;border-radius:2px;background:#f2c811;color:#252423;font-size:12px;font-weight:700}
+.nav{gap:0}
+.nav a{position:relative;padding:0 14px;min-height:48px;display:inline-flex;align-items:center;border-radius:0;color:#c8c6c4;font-size:13px;font-weight:400}
+.nav a:hover{background:#3b3a39;color:#fff}
+.nav a.active{background:transparent;color:#fff;font-weight:600}
+.nav a.active::after{content:"";position:absolute;left:14px;right:14px;bottom:0;height:3px;background:#f2c811}
+
+/* страница */
+.page{width:auto;max-width:none;margin:0;padding:16px 24px 40px}
+.eyebrow{margin-bottom:2px;color:var(--muted);font-size:12px;font-weight:400;text-transform:none}
+h1{margin:0;font-size:24px;line-height:1.25;font-weight:600}
+.lead{max-width:900px;margin:4px 0 0;font-size:14px;line-height:1.45}
+.periods{gap:0;margin-top:12px}
+.period-button{padding:0 14px;min-height:32px;border:1px solid var(--strong);margin-left:-1px;border-radius:0;background:#fff;color:var(--ink);font-size:13px;font-weight:400;transition:none}
+.period-button:first-child{margin-left:0}
+.period-button:hover{background:#f3f2f1;border-color:var(--ink);position:relative}
+.period-button.active{border-color:var(--blue);background:#deecf9;color:var(--ink);font-weight:600;position:relative}
+.period{margin-top:8px;padding:4px 10px;border:1px solid var(--line);border-left:4px solid #f2c811;border-radius:2px;background:#fff;font-size:13px;font-weight:400}
+
+/* карточки показателей */
+.summary{gap:12px;margin-top:12px}
+.metric{padding:12px 16px;border:1px solid var(--line);border-radius:2px;background:#fff;box-shadow:none}
+.metric-label{color:var(--muted);font-size:12px;font-weight:400;text-transform:none}
+.metric-value{margin-top:4px;font-size:28px;line-height:1.15;font-weight:600}
+.metric-note{margin-top:4px;font-size:12px}
+
+/* визуалы */
+.section{margin-top:12px;padding:16px;border:1px solid var(--line);border-radius:2px;background:#fff;box-shadow:none}
+.section-head{margin-bottom:12px}
+.section h2{font-size:16px;font-weight:600}
+.section-note,.scope-note{font-size:12px;line-height:1.45;margin-top:4px}
+.search{height:32px;padding:0 10px;border:1px solid var(--strong);border-radius:2px;font-size:13px}
+.search:focus,.period-button:focus-visible,summary:focus-visible{outline:2px solid var(--blue);outline-offset:1px}
+.object-list{gap:0;border-top:1px solid var(--line)}
+.object{padding:8px 10px;border:0;border-bottom:1px solid var(--line);border-radius:0;background:#fff}
+.object:nth-child(even){background:#faf9f8}
+.object:hover{background:#f3f2f1}
+.object-name{font-size:14px;font-weight:600}
+.object-kpi span{font-size:11px;font-weight:400;text-transform:none}
+.object-kpi strong{font-size:14px;font-weight:600}
+.placement-section summary{font-size:16px;font-weight:600}
+.placement-list{gap:0}
+.placement-row{padding:6px 10px;font-size:13px}
+.placement-row:nth-child(even){background:#faf9f8}
+.status{margin-top:12px;padding:10px 14px;border:1px solid var(--line);border-left:4px solid var(--strong);border-radius:2px;background:#fff;color:var(--muted);font-size:12px;font-weight:400}
+.status.error{border-left-color:var(--red);background:#fff;color:var(--red)}
+
+@media(max-width:900px){.nav{display:none}}
+@media(max-width:620px){.page{padding:12px 12px 40px}.topbar-inner{padding:0 12px}.section{padding:12px;border-radius:2px}.metric-value{font-size:24px}}
